@@ -1,0 +1,743 @@
+@media (min-width: 1200px) {
+    .svg-icon > .icon3 {
+        display: none;
+    }
+    .svg-icon {
+        width: 130px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (max-width:1200px) {
+    .center {
+        display: none;
+    }
+    .search-button > .search {
+        display: none;
+    }
+    .search-button {
+        position: relative;left: -8%;
+    }
+    .svg-icon {
+        display: flex;
+        width: 100%;
+    }
+    .navbar2 > .navbar2-child > .search-button-2icon {
+        width: 50%;
+    }
+}
+@media(max-width: 720px) {
+    .header-top {
+        display: none;
+    }
+}
+@media(max-width: 993px) {
+    .list-kid {
+        display: none;
+    }
+}
+@media (max-width: 770px) {
+    .image2 > .picture2 {
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+}
+@media (max-width: 768px) {
+    .background-third-photo > .nike-sb {
+        transition: 1s;
+        font-size: 30px;
+    }
+}
+/* header  */
+.header-top {
+    background-color: #F5F5F5;
+}
+.header-child-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.list-header {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.list-header > li > span {
+    margin: 5px;
+}
+.jordan-logo {
+    display: flex;
+    width: 70px;
+    justify-content: space-between;
+}
+
+
+/* navbar  */
+.navbar2 {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar2-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center > .list-navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 20px;
+}
+.list-navbar > a {
+    color: black;
+    text-decoration: none;
+}
+.search {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 190px;
+    height: 40px;
+    border:  1px gray;
+    background-color: #f5f5f5;;
+    padding-left: 40px;
+    outline: white;
+}
+.search-button {
+    display: flex;
+    align-items: center;
+}
+.search-button > svg {
+    position: relative;
+    left: 18%;
+}
+.nike-logo > .pre-logo-svg {
+    width: 80px;
+    height: 100%;
+}
+.logo-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+.logo-list > a {
+    color: black;
+}
+.search-button-2icon {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.svg-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* discount */
+.discount {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    height: 58px;
+    width: 100%;
+
+}
+.discount > p {
+    margin-top: 18px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* kid-navbar */
+.kid-header {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+}
+.kid-navbar {
+    display: flex;
+    align-items: center;
+}
+.list-kid {
+    width: 70%;
+}
+.kid-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    list-style: none;
+    margin-top: 10px;
+}
+.kid-list > a {
+    color: black;
+    text-decoration: none;
+}
+.kid-list > a :hover {
+    color: gray;
+}
+.kid {
+    font-size: 24px;
+    width: 25%;
+}
+/* paragraph-under-pic */
+.Shop {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+}
+.button-shop :hover {
+    background-color: gray;
+}
+.nike-sb {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0px;
+    font-weight: bolder;
+    color: rgb(17, 17, 17);;
+    margin-top: 2%;
+}
+.made-to-skate{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    color: rgb(17, 17, 17);;
+}
+.button-shop {
+    display: flex;
+    justify-content: center;
+}
+.image-men {
+    width: 100%;
+}
+/* fouth-pic */
+.background-image1 {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_906,c_limit/dbe128f7-08de-4cd6-9a67-c5d6379f71f2/nike-kids-shoes-clothing-and-accessories-nike-com.jpg");
+    height: 700px;
+}
+.background-image2 {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_906,c_limit/d7596a44-b299-4050-83af-b25707978070/nike-kids-shoes-clothing-and-accessories-nike-com.jpg");
+    height: 500px;
+}
+.background-image3 {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_906,c_limit/8683d382-e97e-441b-a172-02e872d60cf3/nike-kids-shoes-clothing-and-accessories-nike-com.jpg");
+    height: 500px;
+}
+.background-image4 {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_906,c_limit/b5ec764e-5a91-4879-90ee-ade08c70edae/nike-kids-shoes-clothing-and-accessories-nike-com.jpg");
+    height: 700px;
+    position: relative;
+    bottom: 200px;
+}
+.background-image {
+    background-size: cover;
+    background-position: right;
+}
+.line-four {
+    transition: 0.5s;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 90px;
+}
+@media (max-width: 900px) {
+    .line-four {
+        transition: 1s;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px) {
+    .background-image4 {
+        position: relative;
+        top: 0px;
+    }
+}
+.parent-item {
+    position: relative;
+    top: 60%;
+    z-index: 4;
+    margin-left: 10%;
+    color: black;
+    cursor: pointer;
+}  
+
+.item-shop-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+}
+.items {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* second-shoes-scroll */
+.popular-right-now {
+    margin-bottom: 30px;
+}
+.second-shoes-scroll {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+}
+.grand-shoes-scroll {
+    widows: 385px;
+    height: 385px;
+}
+.grandparent-second-shoes-scroll {
+    position: relative;
+    top: -100px;
+}
+@media (max-width: 900px) {
+    .grandparent-second-shoes-scroll {
+        position: relative;
+        top: 50px;
+    }
+    
+}
+
+/* image2 */
+@media (max-width: 800px) {
+    .image2 {
+        position: relative;
+        top: 100px;
+    }
+}
+.trending {
+    margin-bottom: 30px;
+}
+.item-image2 {
+    color: white;
+    position: relative;
+    top: 75%;
+    margin-left: 10%;
+}
+.button-image2 {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+}
+@media (max-width: 800px) {
+    .picture2 {
+        display: flex;
+        flex-direction: column;   
+    }
+}
+.picture2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.background-picture1 {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_702,c_limit/dd7ca0f3-ae67-4550-8e30-a17ea8d09d78/nike-kids-shoes-clothing-and-accessories-nike-com.jpg");
+}
+.background-picture2 {
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_702,c_limit/faa1e000-5b27-4bc4-8619-75c4a9d09af8/nike-kids-shoes-clothing-and-accessories-nike-com.jpg");
+}
+.picture {
+    height: 668px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* image-more-to-explore */
+@media (max-width: 800px) {
+    .grandparent-more-to-explore {
+        position: relative;
+        top: 100px;
+    }
+}
+.more-to-explore {
+    margin-bottom: 30px;
+}
+.parent-more-to-explore {
+    position: relative;
+    top: 100px;
+}
+.image-more-to-explore {
+    transition: 1s;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.child-image-more-to-explore {
+    width: 100%;
+    height: 600px;
+}
+.paragraph-link-shop {
+    margin-top: 20px;
+}
+.child-paragraph-link-shop {
+    margin-bottom: 30px;
+}
+.shop-link {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+/* shoes-scroll */
+.classic-spotlight {
+    margin-bottom: 30px;
+}
+@media (max-width: 800px) {
+    .parent-shoes-scroll {
+        margin-top: 100px;
+    }
+}
+.parent-shoes-scroll {
+    position: relative;
+    top: 150px;  
+}
+.shoes-scroll {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+}
+
+/* feature */
+.feature-main {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.feature {
+    list-style: none;
+}
+.feature :hover {
+    color: black;
+    cursor: pointer;
+}
+.feature-head {
+    margin-bottom: 20px;
+}
+.feature-body {
+    margin-bottom: 10px;
+}
+.feature-gray {
+    color: gray;
+}
+/* feature-display-when-small-screen  */
+.feature-small-screen {
+    height: 150px;
+    margin-top: 190px;
+}
+.child-feature-small-screen {
+    height: 100%;
+}
+.second-feature {
+    height: 100%;
+    list-style: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+@media (max-width: 600px) {
+    .feature-main {
+        transition: 1s;
+        display: none;
+    }
+}
+@media (min-width: 600px) {
+    .feature-small-screen {
+        transition: 1s;
+        display: none;
+    }
+}
+
+
+
+/* footer */
+.parents-footer {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    margin-top: 70px;
+}
+.footer-child {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.footer-child :hover {
+    color: white;
+}
+.footer {
+    list-style: none;
+}
+.social-link-icon {
+    margin: 5px;
+}
+.footer-body {
+    margin-bottom: 20px;
+}
+.footer-main {
+    margin-top: 50px;
+}
+.footer-icon {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.second-footer {
+    color: gray;
+    font-size: 12px;
+}
+.footer-white {
+    font-size: 12px;
+}
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    color: gray;
+    font-size: 12px;
+    cursor: pointer;
+}
+.list :hover {
+    color: white;
+}
+.footer-link {
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    margin: 20px;
+}
+.united {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.under {
+    display: flex;
+    justify-content: space-between
+}
+.location {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.your-privacy {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    .parents-footer {
+        transition: 1s;
+        display: none;
+    }
+}
+@media (min-width: 601px) {
+    .footer-small-screen {
+        transition: 1s;
+        display: none;
+    }
+}
+/* footer-display-when-small-screen  */
+.footer-small-screen {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding-bottom: 20px;
+}
+.child-footer-small-screen {
+    padding-top: 30px;
+}
+.list1-footer-small-screen {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    left: -8px;
+}
+
+.list2-footer-small-screen {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    left: -8px;
+}
+
+.list3-footer-small-screen {
+    padding-top: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: grey;
+    gap: 30px;
+    position: relative;
+    left: -8px;
+    cursor: pointer;
+    margin-bottom: 0%;
+}
+
+.svg4-in-footer-small-screen {
+    margin-left: 20px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.location-in-footer-small-screen {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+.united-small-screen {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.location-small-screen {
+    position: relative;
+    bottom: 2px;
+}
+.footer-link-small-screen {
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+.list3-footer-small-screen :hover {
+    color: white;
+}
+.svg-small {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.svg-small > img {
+    position: relative;
+    top: -2px;
+}
+.svg4-in-footer-small-screen :hover {
+    fill: white;
+}
+
+.container {
+    width: 100%;
+}
+@media(min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+@media(min-width: 760px) {
+    .container {
+        max-width: 760px;
+    }
+}
+@media(min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+@media(min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+@media(min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
+@media(min-width: 2000px) {
+    .container {
+        max-width: 2000px;
+    }
+    .logo-list > .center {
+        position: relative;
+        transition: 2s;
+        left: -12%;
+    }
+    .kid-navbar > .list-kid {
+        position: relative;
+        left: 10%;
+    }
+    .line-four > .background-image1 {
+        height: 900px;
+    }
+    .line-four > .background-image2 {
+        height: 700px;
+    }
+    .line-four > .background-image3 {
+        height: 700px;
+    }
+    .line-four > .background-image4 {
+        height: 900px;
+    }
+    .child-second-shoes-scroll > div > .grand-shoes-scroll {
+        width:  500px;
+        height: 500px;
+    }
+    .picture2 > .picture {
+        height:  1100px;
+    }
+    .grandparent-more-to-explore {
+        margin-bottom: 50px;
+    }
+    .image-more-to-explore > div > .child-image-more-to-explore {
+        height: 600px;
+    }
+    .parent-shoes-scroll > div > img {
+        width: 500px;
+        height: 600px;
+    }
+}
+@media (max-width: 950px) {
+    .parent-more-to-explore > .image-more-to-explore {
+        display: grid;
+        grid-template-columns: 12fr;
+    }
+}
+@media (min-width: 700px) and (max-width: 950px) {
+    .image-more-to-explore > div > .child-image-more-to-explore {
+        height: 800px;
+    }
+}
